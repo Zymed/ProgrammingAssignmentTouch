@@ -51,8 +51,8 @@ public class TestingInputSystem : MonoBehaviour
         }
 
         //New input system would use the following code to read, but Unity cannot detect the phone.
-        //Vector3 tispis = playerInputActions.Player.Accelerator.ReadValue<Vector3>();
-        //Debug.Log(tispis);
+        //Vector3 accInput = playerInputActions.Player.Accelerator.ReadValue<Vector3>();
+        //Debug.Log(accInput);
     }
 
     private void Start()
